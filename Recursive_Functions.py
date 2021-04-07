@@ -41,3 +41,16 @@ def fib(n):
 
 print(fib(4))
 print(fib(7))
+
+numFibValues = int(input('How many Fibonacci values should be found:'))
+                   
+i = 1
+while i < numFibValues:
+    fibValue = fib(i)
+    print(fibValue)
+    i+=1
+print('All done')
+
+for i in range(1, numFibValues + 1):
+    print(fib(i))
+print('All done')
